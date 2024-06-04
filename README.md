@@ -1,3 +1,21 @@
-This project focuses on implementing sentiment analysis using natural language processing (NLP) models. The dataset utilized is sourced from Amazon reviews, specifically from the Digital Music category, comprising the 5-core subset.
+Sentiment Analysis on Amazon Reviews
 
-The goal is to develop NLP models capable of accurately classifying the sentiment of these reviews, which can have practical applications in understanding customer feedback and preferences in the digital music domain.
+This project is a beginner-level exploration of sentiment analysis using two different approaches: NLTK's VADER model and Hugging Face's RoBERTa model. The goal is to test my understanding of Natural Language Processing (NLP) by analyzing sentiments in the Amazon reviews dataset.
+
+Introduction
+
+Sentiment analysis is a key application of NLP that involves determining the emotional tone behind a body of text. This project aims to compare the performance of two popular sentiment analysis models: VADER and RoBERTa, using Amazon reviews as the dataset.
+
+Dataset
+
+The dataset used in this project is a collection of Amazon reviews. Each review is labeled with a sentiment (positive, negative, or neutral).
+
+Source: Amazon Reviews Dataset
+
+Models Used
+
+VADER (Valence Aware Dictionary and sEntiment Reasoner)
+VADER is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media. It is available in the NLTK library.
+
+RoBERTa (A Robustly Optimized BERT Pretraining Approach)
+RoBERTa is an optimized version of BERT, developed by Facebook AI. It is designed to improve the performance of BERT on various NLP tasks by adjusting the training methodology.
